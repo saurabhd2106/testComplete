@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="6" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Sys" Key="{8BCCFA0B-D838-46C8-9180-58998D195C07}" ParallelWalk="True">
+				<TypeInfo Item0="{CAC89980-7EAC-4360-A6BE-374321CD034F}" />
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Sys" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{C83C954C-0E43-418C-80BF-D112C7648C18}" ParallelWalk="True">
+						<TypeInfo Item0="{C3DBFDB3-9335-4D6F-A081-9E8AC6E67E4C}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value PropertyType="0" Value="Browser" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageGuru99BankHomePage" Key="{0E3FF8AE-6AC8-4F80-BB29-AA77CC6C7F9D}" ParallelWalk="True">
+								<Image FileName="-519140145" Left="8" Top="79" Right="1374" Bottom="736" />
+								<TypeInfo Item0="{84F17F98-F78B-4761-BAE8-50549ADA1903}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="http://demo.guru99.com/v4/" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formFrmlogin" Key="{B7C263B8-0177-473E-A888-4350A5CD4807}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="-519140145" Left="8" Top="378" Right="1357" Bottom="486" />
+										<TypeInfo Item0="{5F0B46BF-6204-4291-8B30-757B2C079065}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Form" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="frmLogin" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="usernameTextField" Key="{E11D343B-5658-4BCC-B8ED-F76E9DFC4575}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-519140145" Left="537" Top="382" Right="762" Bottom="410" />
+												<TypeInfo Item0="{08F1E872-36B2-49BE-9457-1ED892FDB2D5}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Textbox" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="uid" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="passwordTextField" Key="{C869CCD6-0041-4645-820D-A457E0BCB239}" Description="This is a text box to enter password" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-519140145" Left="537" Top="418" Right="762" Bottom="446" />
+												<TypeInfo Item0="{08F1E872-36B2-49BE-9457-1ED892FDB2D5}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="PasswordBox" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="password" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="submitButton" Key="{3090960B-1B2B-41F4-9BA9-6F18FAE6A938}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-519140145" Left="537" Top="454" Right="611" Bottom="482" />
+												<TypeInfo Item0="{E955174B-5783-4845-AE24-A25607772F1C}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="SubmitButton" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="btnLogin" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageGuru99BankManagerHomepage" Key="{EE3E702B-94D9-41F9-8790-6914FF4EE4FD}" ParallelWalk="True">
+								<Image FileName="-145012465" Left="8" Top="79" Right="1374" Bottom="736" />
+								<TypeInfo Item0="{84F17F98-F78B-4761-BAE8-50549ADA1903}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="http://demo.guru99.com/v4/manager/Managerhomepage.php" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="newCustomerLink" Key="{EA61BEAF-BCA3-420C-A085-16C59440BC97}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="1337610460" Left="28" Top="408" Right="228" Bottom="445" />
+										<TypeInfo Item0="{27466F9C-F715-4865-8AD7-FA86EABF5080}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Link" Type="5" />
+											</Property>
+											<Property Name="contentText">
+												<Value PropertyType="0" Value="New Customer" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageGuru99BankNewCustomerEntryPa" Key="{92698A99-778C-4052-8966-01C5A6AB3EAD}" ParallelWalk="True">
+								<Image FileName="-351075341" Left="8" Top="79" Right="1374" Bottom="736" />
+								<TypeInfo Item0="{84F17F98-F78B-4761-BAE8-50549ADA1903}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="http://demo.guru99.com/v4/manager/addcustomerpage.php" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="customerNameTextfield" Key="{17675A7B-B27C-40EA-8D36-B30D88535655}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="-351075341" Left="642" Top="179" Right="867" Bottom="207" />
+										<TypeInfo Item0="{08F1E872-36B2-49BE-9457-1ED892FDB2D5}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Textbox" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="name" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="maleRadioButton" Key="{F898B1F8-3E47-4BC3-93FD-9A09A68470AF}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="-351075341" Left="642" Top="219" Right="655" Bottom="232" />
+										<TypeInfo Item0="{53EB4B88-EC5C-4664-BD46-B48737ADD600}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="RadioButton" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="rad1" Type="5" />
+											</Property>
+											<Property Name="value">
+												<Value PropertyType="0" Value="m" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="femaleRadioButton" Key="{1C18480C-0CF6-4BDE-92AD-94D13D63E1B5}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="-351075341" Left="701" Top="219" Right="714" Bottom="232" />
+										<TypeInfo Item0="{53EB4B88-EC5C-4664-BD46-B48737ADD600}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="RadioButton" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="rad1_2" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="dateOfBirthTextfield" Key="{D2674A73-9CA4-4A25-9EF6-96E2508BDB71}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="-351075341" Left="642" Top="245" Right="835" Bottom="277" />
+										<TypeInfo Item0="{0FA363BB-77DF-494F-81A8-F926E7F27380}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="DateInput" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="dob" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="cityTextbox" Key="{5DDB0FAE-5ACC-4252-BABC-2499E61B106E}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="-351075341" Left="642" Top="414" Right="867" Bottom="442" />
+										<TypeInfo Item0="{08F1E872-36B2-49BE-9457-1ED892FDB2D5}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Textbox" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="city" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="table" Key="{7C31370A-031E-421E-AB52-A30A210AFEB2}" ParallelWalk="True">
+										<Image FileName="-351075341" Left="211" Top="50" Right="1155" Bottom="666" />
+										<TypeInfo Item0="{2E745D9F-E639-40C1-8C47-9B827C914091}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Table" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="cell" Key="{6816E1AB-ECF5-4180-9630-82E65511DE10}" ParallelWalk="True">
+												<Image FileName="-351075341" Left="211" Top="50" Right="1155" Bottom="666" />
+												<TypeInfo Item0="{8EB16051-328B-41D9-BA46-0E38F7B4F521}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Cell" Type="5" />
+													</Property>
+													<Property Name="RowIndex">
+														<Value PropertyType="0" Value="0" Type="0" />
+													</Property>
+													<Property Name="ColumnIndex">
+														<Value PropertyType="0" Value="0" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="table" Key="{5F5FC4BC-2950-47F8-AE0C-00C3B21D9086}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="-351075341" Left="494" Top="134" Right="871" Bottom="662" />
+														<TypeInfo Item0="{2E745D9F-E639-40C1-8C47-9B827C914091}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Table" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="cell" Key="{3E793EF4-68F3-4428-BE92-05A1483946E4}" ParallelWalk="True">
+																<Image FileName="-351075341" Left="638" Top="281" Right="871" Bottom="410" />
+																<TypeInfo Item0="{8EB16051-328B-41D9-BA46-0E38F7B4F521}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Cell" Type="5" />
+																	</Property>
+																	<Property Name="RowIndex">
+																		<Value PropertyType="0" Value="6" Type="0" />
+																	</Property>
+																	<Property Name="ColumnIndex">
+																		<Value PropertyType="0" Value="1" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="addressTextArea" Key="{3FF605F9-75F3-4397-A865-140B442BAE97}" ParallelWalk="True">
+																		<Image FileName="-351075341" Left="642" Top="285" Right="818" Bottom="401" />
+																		<TypeInfo Item0="{B405F6EF-0BCA-4747-B50B-43D53382228D}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value PropertyType="0" Value="Textarea" Type="5" />
+																			</Property>
+																			<Property Name="Name">
+																				<Value PropertyType="0" Value="Textarea(&quot;addr&quot;)" Type="5" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="stateTextbox" Key="{A82C0398-2B42-44CE-9AED-C4C8746A9800}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="-351075341" Left="642" Top="450" Right="867" Bottom="478" />
+																<TypeInfo Item0="{08F1E872-36B2-49BE-9457-1ED892FDB2D5}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Textbox" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="state" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="textboxPinno" Key="{26FFACE5-0C04-4B9A-9518-F513AE211F12}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="-351075341" Left="642" Top="486" Right="867" Bottom="514" />
+																<TypeInfo Item0="{08F1E872-36B2-49BE-9457-1ED892FDB2D5}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Textbox" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="pinno" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="mobileNumberTextbox" Key="{11B1E289-91E4-4642-883D-3A2FA14B6EBD}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="-351075341" Left="642" Top="522" Right="867" Bottom="550" />
+																<TypeInfo Item0="{08F1E872-36B2-49BE-9457-1ED892FDB2D5}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Textbox" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="telephoneno" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="textboxEmailid" Key="{8D2540BD-A625-4257-91BF-BEF2F3CDE93A}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="-351075341" Left="642" Top="558" Right="867" Bottom="586" />
+																<TypeInfo Item0="{08F1E872-36B2-49BE-9457-1ED892FDB2D5}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Textbox" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="emailid" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="passwordboxPassword" Key="{37EF44BC-94BB-48F9-BACD-D122C499FE18}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="-351075341" Left="642" Top="594" Right="867" Bottom="622" />
+																<TypeInfo Item0="{08F1E872-36B2-49BE-9457-1ED892FDB2D5}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="PasswordBox" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="password" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="submitbuttonSubmit" Key="{3C77217F-5628-4F85-A67A-AC990BF5FA60}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="-351075341" Left="642" Top="630" Right="716" Bottom="658" />
+																<TypeInfo Item0="{E955174B-5783-4845-AE24-A25607772F1C}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="SubmitButton" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="sub" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageCustomerregmsg" Key="{1B701CB3-C8D0-4E98-ADB2-75EA263C24C5}" ParallelWalk="True">
+								<Image FileName="-1108745290" Left="0" Top="71" Right="1366" Bottom="728" />
+								<TypeInfo Item0="{CE65A375-9D8D-4B20-8673-5472B5E38279}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="http://demo.guru99.com/v4/manager/CustomerRegMsg.php*" Type="5" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="ApplicationFrameHost" Key="{B4BD70B1-EE80-4B60-B6A7-42B8D8C9B8A0}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="ApplicationFrameHost" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndApplicationFrameWindow" Key="{57631AED-2693-4D2A-BFC0-B9EFEB4D4CE0}" ParallelWalk="True">
+								<Image FileName="-260300808" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="ApplicationFrameWindow" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Movies &amp; TV" Type="5" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{2A479F53-F23E-4340-A976-2EE7DCC2F8BE}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="explorer" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndMultitaskingViewFrame" Key="{3555B275-940B-40A2-9848-0C6532E1C44B}" ParallelWalk="True">
+								<Image FileName="-514335783" Left="0" Top="0" Right="1366" Bottom="728" />
+								<TypeInfo Item0="{CFF16B2D-2342-4879-A124-93D0B5A9B55B}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="MultitaskingViewFrame" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Task Switching" Type="5" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{C83C954C-0E43-418C-80BF-D112C7648C18}">
+			<Child Name="pageGuru99BankHomePage" Owner="{0E3FF8AE-6AC8-4F80-BB29-AA77CC6C7F9D}">
+				<Child Name="formFrmlogin" Owner="{B7C263B8-0177-473E-A888-4350A5CD4807}">
+					<Child Name="usernameTextField" Owner="{E11D343B-5658-4BCC-B8ED-F76E9DFC4575}" />
+					<Child Name="passwordTextField" Owner="{C869CCD6-0041-4645-820D-A457E0BCB239}" />
+					<Child Name="submitButton" Owner="{3090960B-1B2B-41F4-9BA9-6F18FAE6A938}" />
+				</Child>
+			</Child>
+			<Child Name="pageGuru99BankManagerHomepage" Owner="{EE3E702B-94D9-41F9-8790-6914FF4EE4FD}">
+				<Child Name="newCustomerLink" Owner="{EA61BEAF-BCA3-420C-A085-16C59440BC97}" />
+			</Child>
+			<Child Name="pageGuru99BankNewCustomerEntryPa" Owner="{92698A99-778C-4052-8966-01C5A6AB3EAD}">
+				<Child Name="customerNameTextfield" Owner="{17675A7B-B27C-40EA-8D36-B30D88535655}" />
+				<Child Name="maleRadioButton" Owner="{F898B1F8-3E47-4BC3-93FD-9A09A68470AF}" />
+				<Child Name="femaleRadioButton" Owner="{1C18480C-0CF6-4BDE-92AD-94D13D63E1B5}" />
+				<Child Name="dateOfBirthTextfield" Owner="{D2674A73-9CA4-4A25-9EF6-96E2508BDB71}" />
+				<Child Name="cityTextbox" Owner="{5DDB0FAE-5ACC-4252-BABC-2499E61B106E}" />
+				<Child Name="addressTextArea" Owner="{3FF605F9-75F3-4397-A865-140B442BAE97}" />
+				<Child Name="stateTextbox" Owner="{A82C0398-2B42-44CE-9AED-C4C8746A9800}" />
+				<Child Name="textboxPinno" Owner="{26FFACE5-0C04-4B9A-9518-F513AE211F12}" />
+				<Child Name="mobileNumberTextbox" Owner="{11B1E289-91E4-4642-883D-3A2FA14B6EBD}" />
+				<Child Name="textboxEmailid" Owner="{8D2540BD-A625-4257-91BF-BEF2F3CDE93A}" />
+				<Child Name="passwordboxPassword" Owner="{37EF44BC-94BB-48F9-BACD-D122C499FE18}" />
+				<Child Name="submitbuttonSubmit" Owner="{3C77217F-5628-4F85-A67A-AC990BF5FA60}" />
+			</Child>
+			<Child Name="pageCustomerregmsg" Owner="{1B701CB3-C8D0-4E98-ADB2-75EA263C24C5}" />
+		</Child>
+		<Child Name="ApplicationFrameHost" Owner="{B4BD70B1-EE80-4B60-B6A7-42B8D8C9B8A0}">
+			<Child Name="wndApplicationFrameWindow" Owner="{57631AED-2693-4D2A-BFC0-B9EFEB4D4CE0}" />
+		</Child>
+		<Child Name="explorer" Owner="{2A479F53-F23E-4340-A976-2EE7DCC2F8BE}">
+			<Child Name="wndMultitaskingViewFrame" Owner="{3555B275-940B-40A2-9848-0C6532E1C44B}" />
+		</Child>
+		<Child Name="usernameTextField" Owner="{E11D343B-5658-4BCC-B8ED-F76E9DFC4575}" />
+		<Child Name="passwordTextField" Owner="{C869CCD6-0041-4645-820D-A457E0BCB239}" />
+		<Child Name="submitButton" Owner="{3090960B-1B2B-41F4-9BA9-6F18FAE6A938}" />
+	</LogicalNodes>
+</Root>

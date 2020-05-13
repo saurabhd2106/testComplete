@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{FD55D9A4-E1D7-4198-A39B-239E49F860E4}">
+	<children>
+		<child name="Guru99Application" key="{F1FACCA1-1458-4487-BB16-EB46D420D018}" path="Guru99Application\Guru99Application.mds" />
+		<child name="SampleDekstopApplication" key="{DD1DD335-37AC-4F91-A08F-C1B3A5C995D7}" path="SampleDekstopApplication\SampleDekstopApplication.mds" />
+	</children>
+	<testItems key="{C2ECAFB0-88CD-477F-A561-27A6A58F36F5}">
+		<children>
+			<testItem key="{F1FACCA1-1458-4487-BB16-EB46D420D018}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{DD1DD335-37AC-4F91-A08F-C1B3A5C995D7}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{BA34CD18-A274-43C2-B785-1B8D7B108ADB}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{A34ECDAD-9ED6-4EC7-8F49-80471C13C021}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="False" />
+	</extender>
+</Root>
